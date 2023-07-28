@@ -19,11 +19,64 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      height: 719px;
+      width: 748px;
+      justify-content: center;
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px;
+    }
+
+    .square{
+      background-color: #F0F1EC;
+    }
+
+    .one {
+      background-color: red;
+    }
+
+    .two {
+      background-color: rgb(199, 228, 143);
+      grid-column: span 3;
+    }
+
+    .three {
+      grid-column: span 2;
+    }
+
+    .four {
+      background-color: rgb(239, 243, 8);
+    }
+
+    .six {
+      background-color: pink;
+    }
+
   </style>
 </head>
 
 <body>
-  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="square one"></div>
+    <div class="square two"></div>
+    <div class="square three"></div>
+    <div class="square four"></div>
+    <div class="square five"></div>
+    <div class="square six"></div>
+    <div class="square seven"></div>
+    <div class="square eight"></div>
+  </div>
 </body>
 
 </html>
