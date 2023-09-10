@@ -2,12 +2,13 @@
     font-family: 'PT Serif', serif;
     font-size: 18px;
     text-align: center;
-    /* color: #153462; */
 }
 
 body {
     background-color: #dddde7;
     font-family: 'PT Serif', serif;
+    border-right: 85px solid ivory;
+    border-left: 85px solid ivory;
 }
 
 
